@@ -4,5 +4,10 @@
 using namespace std;
 
 int main() {
+	string baris;
 
+	ofstream outfile;
+	outfile.open("contohfile.txt");
+
+	cout << ">= menulis file, \'q\' untuk keluar " << endl;
 }
