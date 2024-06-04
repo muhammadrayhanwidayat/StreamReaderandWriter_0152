@@ -10,4 +10,12 @@ int main() {
 	outfile.open("contohfile.txt");
 
 	cout << ">= menulis file, \'q\' untuk keluar " << endl;
+
+	while (true) {
+		cout << "_ ";
+		getline(cin, baris);
+		if (baris == "q") break;
+		outfile << baris << endl;
+
+	}
 }
